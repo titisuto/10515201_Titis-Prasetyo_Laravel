@@ -1,5 +1,5 @@
-# ARTIKEL PROJECT LARAVEL
-**Oleh: Titis Prasetyo (10515201)**
+<center># ARTIKEL PROJECT LARAVEL
+**Oleh: Titis Prasetyo (10515201)**</center>
 **Kelas: ECL-9**
 ## Awal Pembuatan Project
 1. Project web dengan menggunakan *framework* laravel merupakan bagian dari pembelajaran mata kuliah E-Commerce Lanjut pada mahasiswa Sistem Informasi semester 7.
