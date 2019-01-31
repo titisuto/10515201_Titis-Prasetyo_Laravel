@@ -23,7 +23,7 @@ Dengan mendownload file template Admin LTE 2.3.11 kemudian mengextract dan menga
 Dengan memanfaatkan *Command Prompt*, kita dapat melakukan pembuatan controller baru, tabel baru dsb.
 
 **3. CRUD Pada Kelas dan Siswa**
-Dalam membuat CRUD, artinya kita berhubungan dengan yang namanya *database*. Maka dari itu, hal yang pertama dilakukan adalah memodifikasi db connection pada project laravel kita kemudian membuat *database*nya. Kemudian melakukan *migration* untuk membuat tabel menggunakan *Command Prompt* dan mengisi tabel tersebut sesuai kebutuhan kemudian di*migrate*.
+Dalam membuat CRUD, artinya kita berhubungan dengan yang namanya *database*. Maka dari itu, hal yang pertama dilakukan adalah memodifikasi db connection pada project laravel kita kemudian membuat *database*nya. Kemudian melakukan *migration* untuk membuat tabel menggunakan *Command Prompt* dan mengisi tabel tersebut sesuai kebutuhan kemudian di*migrate*. Sama halnya dengan tabel siswa, diperlukan relasi antara tabel siswa dengan tabel kelas. Dengan menggunakan laravel, tidak perlu menggunakan sintaks query join. Melainkan dengan memanfaatkan fitur laravel yaitu *Relationship Eloquent*.
 
 1. CRUD - Create Data
 Tahap *create* ini berfungsi untuk menambahkan data kedalam *database*. Dengan cara memodifikasi tampilan views dan controller serta mengatur routes agar dapat memasukan data kedalam *database*.
@@ -34,3 +34,6 @@ Dengan menggunakan php artisan dengan membuat model. Setelah dibuat, modifikasi 
 Dengan memodifikasi views, controller dan routes nya agar proses update dapat berjalan.
 4. CRUD - Delete Data
 Dalam proses delete data, hanya menggubah controllernya saja dengan menambahkan *function destroy*.
+
+**4. Membuat Menu Login**
+Login dibuat untuk memberikan hak akses terhadap seseorang untuk mengakses halaman web tersebut. Maka dari itu, hal pertama yang dimodifikasi yaitu views dengan mengambil file login.html pada folder **Admin LTE 2.3.11**.
